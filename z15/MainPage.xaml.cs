@@ -27,7 +27,7 @@ namespace z15
         {
             this.InitializeComponent();
 
-            using (var conn = new MySqlConnection("server=kdkj.nazwa.pl;database=ZTP;uid=odczyt;pwd=12345678")) //łączenie z bazą danych
+            using (var conn = new MySqlConnection("server=xxx;database=xxx;uid=xxx;pwd=xxx")) //łączenie z bazą danych
             {
                 conn.Open(); //otwarcie połączenia z bazą
 
